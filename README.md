@@ -1,10 +1,1 @@
-# Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
-"# enhanced-turtle-items" 
+nhanced Turtle Items (ETI) is a Minecraft mod that adds enhanced turtle items in the style of netherite tool making
