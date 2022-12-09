@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Enhanced Turtle Items (ETI)
 
 ## Setup
 
@@ -6,4 +6,4 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is using the "All Rights Reserved" License
