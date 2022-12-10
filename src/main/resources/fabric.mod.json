@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "eti",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Enhanced Turtle Items",
+  "description": "A Minecraft mod that adds enhanced turtle items in the style of netherite tool making",
   "authors": [
-    "Me!"
+    "AbyssDweller/Lazuline#6694"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/eti",
+    "sources": "https://github.com/AbyssDweller/enhanced-turtle-items"
   },
 
-  "license": "CC0-1.0",
+  "license": "All Rights Reserved",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.drakon.enhancedturtleitems.EtiMod"
+    ],
+    "client": [
+      "net.drakon.enhancedturtleitems.EtiClientMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "eti.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +36,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
