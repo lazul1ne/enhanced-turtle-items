@@ -1,4 +1,12 @@
 package net.drakon.enhancedturtleitems;
 
-public class EtiClientMod {
+import net.fabricmc.api.ClientModInitializer;
+
+
+
+
+public class EtiClientMod  implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+    }
 }

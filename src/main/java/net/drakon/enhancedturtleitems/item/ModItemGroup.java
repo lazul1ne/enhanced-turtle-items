@@ -8,6 +8,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup ETIGROUP = FabricItemGroupBuilder.build(new Identifier(EtiMod.MOD_ID, "enhanced turtle items"),
+    public static final ItemGroup ETIGROUP = FabricItemGroupBuilder.build(new Identifier(EtiMod.MOD_ID, "eti"),
             () -> new ItemStack(ModItems.TURTLE_IRON_HELMET));
 }
