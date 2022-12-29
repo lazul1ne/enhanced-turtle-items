@@ -10,6 +10,9 @@
   "item.eti.turtle_ingot": "Turtle Ingot",
 
   "item.eti.turtle_gold_sword": "Gold Enhanced Turtle Sword",
+  "item.eti.turtle_iron_sword": "Iron Enhanced Turtle Sword",
+  "item.eti.turtle_diamond_sword": "Diamond Enhanced Turtle Sword",
+  "item.eti.turtle_netherite_sword": "Netherite Enhanced Turtle Sword",
 
 
   "itemGroup.eti.eti": "Enhanced Turtle Items"

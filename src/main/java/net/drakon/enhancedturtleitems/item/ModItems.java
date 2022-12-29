@@ -57,6 +57,19 @@ public class ModItems {
         new SwordItem(ModToolMaterials.TURTLE_GOLD, 0, -2.25f,
             new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
 
+    public static final Item TURTLE_IRON_SWORD = registerItem("turtle_iron_sword",
+        new SwordItem(ModToolMaterials.TURTLE_IRON, 0, -2.25f,
+            new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
+
+    public static final Item TURTLE_DIAMOND_SWORD = registerItem("turtle_diamond_sword",
+        new SwordItem(ModToolMaterials.TURTLE_DIAMOND, 0, -2.25f,
+            new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
+
+    public static final Item TURTLE_NETHERITE_SWORD = registerItem("turtle_netherite_sword",
+        new SwordItem(ModToolMaterials.TURTLE_NETHERITE, 0, -2.25f,
+            new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
+
+
 
 
 

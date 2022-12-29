@@ -8,13 +8,13 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-  TURTLE_GOLD(MiningLevels.IRON, 132, 10.0f, 4.5f, 36, () -> {
+  TURTLE_GOLD(MiningLevels.STONE, 132, 10.0f, 3.5f, 36, () -> {
         return Ingredient.ofItems(ModItems.TEST);
-    }),  TURTLE_IRON(MiningLevels.IRON, 159, 10.0f, 2.5f, 24, () -> {
+    }),  TURTLE_IRON(MiningLevels.IRON, 350, 10.0f, 5.5f, 25, () -> {
         return Ingredient.ofItems(ModItems.TEST);
-    }),  TURTLE_DIAMOND(MiningLevels.IRON, 350, 10.0f, 2.5f, 24, () -> {
+    }),  TURTLE_DIAMOND(MiningLevels.DIAMOND, 1661, 10.0f, 6.5f, 27, () -> {
         return Ingredient.ofItems(ModItems.TEST);
-    }),  TURTLE_NETHERITE(MiningLevels.IRON, 560, 10.0f, 2.5f, 24, () -> {
+    }),  TURTLE_NETHERITE(MiningLevels.NETHERITE, 2131, 10.0f, 7.5f, 30, () -> {
         return Ingredient.ofItems(ModItems.TEST);
 });
 
