@@ -12,6 +12,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
@@ -51,6 +52,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item TURTLE_INGOT = registerItem("turtle_ingot",
         new Item(new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
+
+    public static final Item TURTLE_GOLD_SWORD = registerItem("turtle_gold_sword",
+        new SwordItem(ModToolMaterials.TURTLE_GOLD, 0, -2.25f,
+            new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
 
 
 
