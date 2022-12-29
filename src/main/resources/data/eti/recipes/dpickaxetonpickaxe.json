@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "eti:turtle_diamond_pickaxe"
+  },
+  "addition": {
+    "item": "eti:turtle_ingot"
+  },
+  "result": {
+    "item": "eti:turtle_netherite_pickaxe"
+  }
+}
