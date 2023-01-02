@@ -19,6 +19,21 @@
   "item.eti.turtle_diamond_pickaxe": "Diamond Enhanced Turtle Pickaxe",
   "item.eti.turtle_netherite_pickaxe": "Netherite Enhanced Turtle Pickaxe",
 
+  "item.eti.turtle_gold_shovel": "Gold Enhanced Turtle Shovel",
+  "item.eti.turtle_iron_shovel": "Iron Enhanced Turtle Shovel",
+  "item.eti.turtle_diamond_shovel": "Diamond Enhanced Turtle Shovel",
+  "item.eti.turtle_netherite_shovel": "Netherite Enhanced Turtle Shovel",
+
+  "item.eti.turtle_gold_axe": "Gold Enhanced Turtle Axe",
+  "item.eti.turtle_iron_axe": "Iron Enhanced Turtle Axe",
+  "item.eti.turtle_diamond_axe": "Diamond Enhanced Turtle Axe",
+  "item.eti.turtle_netherite_axe": "Netherite Enhanced Turtle Axe",
+
+  "item.eti.turtle_gold_hoe": "Gold Enhanced Turtle Hoe",
+  "item.eti.turtle_iron_hoe": "Iron Enhanced Turtle Hoe",
+  "item.eti.turtle_diamond_hoe": "Diamond Enhanced Turtle Hoe",
+  "item.eti.turtle_netherite_hoe": "Netherite Enhanced Turtle Hoe",
+
 
   "itemGroup.eti.eti": "Enhanced Turtle Items"
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "eti:turtle_ingot"
+  },
+  "result": {
+    "item": "eti:turtle_diamond_shovel"
+  }
+}

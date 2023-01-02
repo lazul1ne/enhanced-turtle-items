@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "addition": {
+    "item": "eti:turtle_ingot"
+  },
+  "result": {
+    "item": "eti:turtle_iron_axe"
+  }
+}
