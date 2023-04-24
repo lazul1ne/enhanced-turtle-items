@@ -24,6 +24,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+/*
+planned
+Add the bow,crossbow, and harpoon.
+textures 100%
+coding 0%
+*/
+
 
 // helmets
 
@@ -135,9 +142,6 @@ public class ModItems {
     public static final Item TURTLE_NETHERITE_HOE= registerItem("turtle_netherite_hoe",
         new ModHoeItem(ModToolMaterials.TURTLE_NETHERITE, -7,0f,
             new FabricItemSettings().group(ModItemGroup.ETIGROUP)));
-
-
-
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(EtiMod.MOD_ID, name), item);
