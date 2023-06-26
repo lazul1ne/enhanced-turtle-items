@@ -4,7 +4,7 @@
     "item": "eti:turtle_diamond_pickaxe"
   },
   "addition": {
-    "item": "eti:turtle_ingot"
+    "item": "minecraft:netherite_ingot"
   },
   "result": {
     "item": "eti:turtle_netherite_pickaxe"
