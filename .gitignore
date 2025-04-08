@@ -31,3 +31,22 @@ bin/
 # fabric
 
 run/
+remappedSrc/xyz/lazuline/mixin/ExampleMixin.java
+remappedSrc/xyz/lazuline/Enhancedturtleitems.java
+.gradle/loom-cache/remapClasspath.txt
+.gradle/loom-cache/launch.cfg
+.gradle/file-system.probe
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/7.6/gc.properties
+.gradle/7.6/fileHashes/resourceHashesCache.bin
+.gradle/7.6/fileHashes/fileHashes.lock
+.gradle/7.6/fileHashes/fileHashes.bin
+.gradle/7.6/fileChanges/last-build.bin
+.gradle/7.6/executionHistory/executionHistory.lock
+.gradle/7.6/executionHistory/executionHistory.bin
+.gradle/7.6/dependencies-accessors/gc.properties
+.gradle/7.6/dependencies-accessors/dependencies-accessors.lock
+.gradle/7.6/checksums/sha1-checksums.bin
+.gradle/7.6/checksums/md5-checksums.bin
+.gradle/7.6/checksums/checksums.lock
