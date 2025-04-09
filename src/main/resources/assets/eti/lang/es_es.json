@@ -36,5 +36,8 @@
 
   "item.eti.turtle_upgrade_smithing_template": "Molde de tortuga",
 
+  "tooltip.eti.turtle_helmet.tooltip": "§7Permite respirar en el agua cuando se usa.",
+
+
   "itemgroup.eti": "Enhanced Turtle Items"
 }

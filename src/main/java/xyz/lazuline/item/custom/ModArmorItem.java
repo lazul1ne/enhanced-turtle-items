@@ -1,5 +1,6 @@
 package xyz.lazuline.item.custom;
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -7,8 +8,12 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 import xyz.lazuline.item.ModArmorMaterials;
+
+import java.util.List;
 import java.util.Map;
 
 public class ModArmorItem extends ArmorItem {
@@ -167,6 +172,19 @@ public class ModArmorItem extends ArmorItem {
     }
 
 
+    @Override
+
+
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+
+
+        tooltip.add(Text.translatable("tooltip.eti.turtle_helmet.tooltip"));
+
+
+        super.appendTooltip(stack, world, tooltip, context);
+
+
+    }
 
 
 }

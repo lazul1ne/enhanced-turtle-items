@@ -37,6 +37,9 @@
   "item.eti.turtle_upgrade_smithing_template": "Turtle Upgrade",
 
 
+  "tooltip.eti.turtle_helmet.tooltip": "§7Gives permanent water breathing when worn.",
+
+
   "itemgroup.eti": "Enhanced Turtle Items"
 
 }
