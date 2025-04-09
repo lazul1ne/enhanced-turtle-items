@@ -1,0 +1,40 @@
+{
+  "item.eti.turtle_leather_helmet": "Casco de tortuga aumentado con cuero",
+  "item.eti.turtle_chainmail_helmet": "Casco de tortuga aumentado con cota de malla",
+  "item.eti.turtle_gold_helmet": "Casco de tortuga aumentado con oro",
+  "item.eti.turtle_iron_helmet": "Casco de tortuga aumentado con hierro",
+  "item.eti.turtle_diamond_helmet": "Casco de tortuga aumentado con diamante",
+  "item.eti.turtle_netherite_helmet": "Casco de tortuga aumentado con netherita",
+
+  "item.eti.test": "Test",
+  "item.eti.turtle_ingot": "Lingote de tortuga",
+
+  "item.eti.turtle_gold_sword": "Espada de tortuga aumentada con oro",
+  "item.eti.turtle_iron_sword": "Espada de tortuga aumentada con hierro",
+  "item.eti.turtle_diamond_sword": "Espada de tortuga aumentada con diamante",
+  "item.eti.turtle_netherite_sword": "Espada de tortuga aumentada con netherita",
+
+  "item.eti.turtle_gold_pickaxe": "Pico de tortuga aumentado con oro",
+  "item.eti.turtle_iron_pickaxe": "Pico de tortuga aumentado con hierro",
+  "item.eti.turtle_diamond_pickaxe": "Pico de tortuga aumentado con diamante",
+  "item.eti.turtle_netherite_pickaxe": "Pico de tortuga aumentado con netherita",
+
+  "item.eti.turtle_gold_shovel": "Pala de tortuga aumentada con oro",
+  "item.eti.turtle_iron_shovel": "Pala de tortuga aumentada con hierro",
+  "item.eti.turtle_diamond_shovel": "Pala de tortuga aumentada con diamante",
+  "item.eti.turtle_netherite_shovel": "Pala de tortuga aumentada con netherita",
+
+  "item.eti.turtle_gold_axe": "Hacha de tortuga aumentada con oro",
+  "item.eti.turtle_iron_axe": "Hacha de tortuga aumentada con hierro",
+  "item.eti.turtle_diamond_axe": "Hacha de tortuga aumentada con diamante",
+  "item.eti.turtle_netherite_axe": "Hacha de tortuga aumentada con netherita",
+
+  "item.eti.turtle_gold_hoe": "Azada de tortuga aumentada con oro",
+  "item.eti.turtle_iron_hoe": "Azada de tortuga aumentada con hierro",
+  "item.eti.turtle_diamond_hoe": "Azada de tortuga aumentada con diamante",
+  "item.eti.turtle_netherite_hoe": "Azada de Tortuga aumentada con netherita",
+
+  "item.eti.turtle_upgrade_smithing_template": "Molde de tortuga",
+
+  "itemgroup.eti": "Enhanced Turtle Items"
+}

@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item TURTLE_UPGRADE_SMITHING_TEMPLATE = registerItem("turtle_upgrade_smithing_template", new Item(new FabricItemSettings()));
 
     // swords
+    // notes: Think about adding just a "turtle_sword" that has low durability/stats (probably comparable to stone sword) but can be upgraded into any of the other swords, balancing might be a problem though.
     public static final Item TURTLE_GOLD_SWORD = registerItem("turtle_gold_sword", new SwordItem(ModToolMaterials.TURTLE_GOLD, 3, -2.4F, new Item.Settings()));
     public static final Item TURTLE_IRON_SWORD = registerItem("turtle_iron_sword", new SwordItem(ModToolMaterials.TURTLE_IRON, 3, -2.4F, new Item.Settings()));
     public static final Item TURTLE_DIAMOND_SWORD = registerItem("turtle_diamond_sword", new SwordItem(ModToolMaterials.TURTLE_DIAMOND, 3, -2.4F, new Item.Settings()));
