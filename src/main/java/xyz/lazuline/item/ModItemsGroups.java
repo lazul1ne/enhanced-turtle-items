@@ -42,7 +42,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.TURTLE_NETHERITE_HOE);
 
 
-                        // entries.add(ModItems.TURTLE_LEATHER_HELMET);
+                        entries.add(ModItems.TURTLE_LEATHER_HELMET);
                         entries.add(ModItems.TURTLE_CHAINMAIL_HELMET);
                         entries.add(ModItems.TURTLE_GOLD_HELMET);
                         entries.add(ModItems.TURTLE_IRON_HELMET);

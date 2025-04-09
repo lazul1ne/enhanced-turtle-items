@@ -16,10 +16,10 @@ import net.minecraft.util.Util;
 
 public enum ModArmorMaterials implements StringIdentifiable, ArmorMaterial {
     TURTLE_LEATHER("turtle_leather", 5, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
-        map.put(ArmorItem.Type.BOOTS, 1.50);
-        map.put(ArmorItem.Type.LEGGINGS, 4.50);
-        map.put(ArmorItem.Type.CHESTPLATE, 4.50);
-        map.put(ArmorItem.Type.HELMET, 1.50);
+        map.put(ArmorItem.Type.BOOTS, 1);
+        map.put(ArmorItem.Type.LEGGINGS, 4);
+        map.put(ArmorItem.Type.CHESTPLATE, 4);
+        map.put(ArmorItem.Type.HELMET, 1);
     }), 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.LEATHER)),
     TURTLE_CHAIN("turtle_chainmail", 15, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 1);

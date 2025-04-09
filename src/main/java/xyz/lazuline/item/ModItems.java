@@ -51,7 +51,7 @@ public class ModItems {
     public static final Item TURTLE_NETHERITE_HOE = registerItem("turtle_netherite_hoe", new HoeItem(ModToolMaterials.TURTLE_NETHERITE, -4, 0.0F, new Item.Settings()));
 
     // helmets
-    //public static final Item TURTLE_LEATHER_HELMET = registerItem("turtle_leather_helmet", new ModArmorItem(ModArmorMaterials.TURTLE_LEATHER, ArmorItem.Type.HELMET, new Item.Settings()));
+    public static final Item TURTLE_LEATHER_HELMET = registerItem("turtle_leather_helmet", new ModArmorItem(ModArmorMaterials.TURTLE_LEATHER, ArmorItem.Type.HELMET, new Item.Settings()));
     public static final Item TURTLE_CHAINMAIL_HELMET = registerItem("turtle_chainmail_helmet", new ModArmorItem(ModArmorMaterials.TURTLE_CHAIN, ArmorItem.Type.HELMET, new Item.Settings()));
     public static final Item TURTLE_GOLD_HELMET = registerItem("turtle_gold_helmet", new ModArmorItem(ModArmorMaterials.TURTLE_GOLD, ArmorItem.Type.HELMET, new Item.Settings()));
     public static final Item TURTLE_IRON_HELMET = registerItem("turtle_iron_helmet", new ModArmorItem(ModArmorMaterials.TURTLE_IRON, ArmorItem.Type.HELMET, new Item.Settings()));
