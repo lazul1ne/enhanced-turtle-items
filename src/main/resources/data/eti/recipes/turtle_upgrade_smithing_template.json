@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "#e#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:scute"
+    },
+    "E": {
+      "item": "eti:turtle_upgrade_smithing_template"
+    },
+    "e": {
+      "item": "eti:turtle_ingot"
+    }
+  },
+  "result": {
+    "item": "eti:turtle_upgrade_smithing_template",
+    "count": 2
+  }
+}

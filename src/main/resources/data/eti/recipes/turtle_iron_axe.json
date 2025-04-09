@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "eti:turtle_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_axe"
+  },
+  "result": {
+    "item": "eti:turtle_iron_axe"
+  },
+  "template": {
+    "item": "eti:turtle_upgrade_smithing_template"
+  }
+}

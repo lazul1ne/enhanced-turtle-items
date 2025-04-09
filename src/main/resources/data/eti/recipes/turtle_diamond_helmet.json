@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "eti:turtle_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "item": "eti:turtle_diamond_helmet"
+  },
+  "template": {
+    "item": "eti:turtle_upgrade_smithing_template"
+  }
+}
