@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "#E#",
-    "#e#",
+    "#s#",
     "###"
   ],
   "key": {
@@ -12,8 +12,8 @@
     "E": {
       "item": "eti:turtle_upgrade_smithing_template"
     },
-    "e": {
-      "item": "eti:turtle_ingot"
+    "s": {
+      "item": "minecraft:sand"
     }
   },
   "result": {
