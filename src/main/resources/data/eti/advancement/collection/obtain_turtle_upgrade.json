@@ -1,0 +1,32 @@
+{
+  "parent": "eti:collection:root",
+  "criteria": {
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eti:turtle_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.obtain_turtle_upgrade_smithing_template.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "eti:turtle_upgrade_smithing_template"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.obtain_turtle_upgrade_smithing_template.title"
+    }
+  }
+}
