@@ -20,6 +20,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.TURTLE_IRON_SWORD);
                         entries.add(ModItems.TURTLE_DIAMOND_SWORD);
                         entries.add(ModItems.TURTLE_NETHERITE_SWORD);
+                        entries.add(ModItems.TURTLE_SWORD);
 
                         entries.add(ModItems.TURTLE_GOLD_PICKAXE);
                         entries.add(ModItems.TURTLE_IRON_PICKAXE);

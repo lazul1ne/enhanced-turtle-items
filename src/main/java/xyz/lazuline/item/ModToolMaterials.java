@@ -5,12 +5,16 @@ import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Lazy;
+import xyz.lazuline.EnhancedTurtleItems;
 
 public enum ModToolMaterials implements ToolMaterial {
+	TURTLE(MiningLevels.STONE, 198, 4.0F, 1.0F, 5, () -> Ingredient.ofItems(ModItems.TURTLE_INGOT)),
+	//STONE(MiningLevels.STONE, 152, 4.0F, 1.0F, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS)),
+	TURTLE_GOLD(MiningLevels.WOOD, 32, 15.0F, 0.0F, 26, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
 	TURTLE_IRON(MiningLevels.IRON, 250, 8.0F, 2.0F, 18, () -> Ingredient.ofItems(Items.IRON_INGOT)),
 	TURTLE_DIAMOND(MiningLevels.DIAMOND, 1561, 10.0F, 3.0F, 14, () -> Ingredient.ofItems(Items.DIAMOND)),
-	TURTLE_GOLD(MiningLevels.WOOD, 32, 15.0F, 0.0F, 26, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
 	TURTLE_NETHERITE(MiningLevels.NETHERITE, 2031, 11.0F, 4.0F, 19, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
 	private final int miningLevel;

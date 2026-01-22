@@ -19,13 +19,19 @@ public class ModItems {
     public static final Item TEST = registerItem("test", new Item(new FabricItemSettings()));
     public static final Item TURTLE_INGOT = registerItem("turtle_ingot", new Item(new FabricItemSettings()));
     public static final Item TURTLE_UPGRADE_SMITHING_TEMPLATE = registerItem("turtle_upgrade_smithing_template", new Item(new FabricItemSettings()));
-    public static final Item HARPOON = registerItem("harpoon", new TridentItem(new FabricItemSettings()));
+    //public static final Item HARPOON = registerItem("harpoon", new TridentItem(new FabricItemSettings()));
     // swords
-    // notes: Think about adding just a "turtle_sword" that has low durability/stats (probably comparable to stone sword) but can be upgraded into any of the other swords, balancing might be a problem though.
+
     public static final Item TURTLE_GOLD_SWORD = registerItem("turtle_gold_sword", new SwordItem(ModToolMaterials.TURTLE_GOLD, 3, -2.4F, new Item.Settings()));
     public static final Item TURTLE_IRON_SWORD = registerItem("turtle_iron_sword", new SwordItem(ModToolMaterials.TURTLE_IRON, 3, -2.4F, new Item.Settings()));
     public static final Item TURTLE_DIAMOND_SWORD = registerItem("turtle_diamond_sword", new SwordItem(ModToolMaterials.TURTLE_DIAMOND, 3, -2.4F, new Item.Settings()));
     public static final Item TURTLE_NETHERITE_SWORD = registerItem("turtle_netherite_sword", new SwordItem(ModToolMaterials.TURTLE_NETHERITE, 3, -2.4F, new Item.Settings().fireproof()));
+
+    // notes: Think about adding just a "turtle_sword" that has low durability/stats (probably comparable to stone sword) but can be upgraded into any of the other swords, balancing might be a problem though.
+    // especially since if it only requires one of the item (ie: diamond) to upgrade into a turtle enhanced diamond sword, then it would be more efficient to do it that way.
+    // I think I will just not add the ability to upgrade it for now
+    public static final Item TURTLE_SWORD = registerItem("turtle_sword", new SwordItem(ModToolMaterials.TURTLE,2, -2.4F,new Item.Settings().fireproof() ));
+
 
     // pickaxes
     public static final Item TURTLE_GOLD_PICKAXE = registerItem("turtle_gold_pickaxe", new PickaxeItem(ModToolMaterials.TURTLE_GOLD, 1, -2.8F, new Item.Settings()));
@@ -64,6 +70,7 @@ public class ModItems {
         entries.add(TURTLE_IRON_SWORD);
         entries.add(TURTLE_DIAMOND_SWORD);
         entries.add(TURTLE_NETHERITE_SWORD);
+        entries.add(TURTLE_SWORD);
         //
         entries.add(TURTLE_GOLD_AXE);
         entries.add(TURTLE_IRON_AXE);

@@ -33,8 +33,7 @@ public class ModLootTableModifers {
                         .rolls(ConstantLootNumberProvider.create(1))
 
 
-                        .conditionally(RandomChanceLootCondition.builder(0.75f)) // Drops 100% of the time
-
+                        .conditionally(RandomChanceLootCondition.builder(0.75f))
 
                         .with(ItemEntry.builder(ModItems.TURTLE_UPGRADE_SMITHING_TEMPLATE))
 
